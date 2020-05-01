@@ -1,0 +1,81 @@
+body {
+	/*background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(220,220,220,1) 50%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);*/
+	/*background: rgb(202,129,129);
+	background: radial-gradient(circle, rgba(202,129,129,1) 0%, rgba(255,255,255,1) 100%);	*/
+	background: rgb(87,99,109);
+	background: radial-gradient(circle, rgba(87,99,109,1) 0%, rgba(255,255,255,1) 100%);
+	font-family: "Arial", "sans serif";
+
+}
+
+#pichead {
+	width: 100%;
+	margin: center;
+
+} 
+
+
+#title {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: white;
+	text-align: right;
+	margin-left: 25%;
+
+
+}	
+
+
+h1 {
+	color: white;
+	font-family: "Courier New";
+	font-size: 60pt;
+
+
+}
+
+p {
+	font-size: 14pt;
+
+}
+
+#projectpart {
+	padding-top: 5%;
+}
+
+#projectpart p {
+	font-size: 12pt;
+}
+
+#teampart {
+	padding-top: 5%;
+}
+
+h2 {
+	text-align: center;
+	color: #707070;
+
+}
+
+#memberpart {
+	padding-top: 5%;
+
+}
+
+#memberpart p {
+	font-size: 10pt;
+}
+
+.picmember {
+	width: 200px;
+  	border-radius: 50%;
+  	position: all;
+  	margin-left: 20%;
+
+}
+
+
+#descmember {
+	padding-top: 5%;
+}
