@@ -5,10 +5,19 @@ body {
 	background: radial-gradient(circle, rgba(202,129,129,1) 0%, rgba(255,255,255,1) 100%);	*/
 	/*background: rgb(87,99,109);
 	background: radial-gradient(circle, rgba(87,99,109,1) 0%, rgba(255,255,255,1) 100%);*/
-	background: rgb(212,213,215);
-	background: radial-gradient(circle, rgba(212,213,215,1) 0%, rgba(255,255,255,1) 100%);
+	/*background: rgb(212,213,215);*/
+	/*background: #e8e5e5;*/
+	/*background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(225,222,222,1) 100%);*/
+	/*background: rgb(247,247,247);
+	background: radial-gradient(circle, rgba(247,247,247,1) 0%, rgba(238,225,213,1) 100%);*/
+	/*background: rgb(247,247,247);
+	background: radial-gradient(circle, rgba(247,247,247,1) 0%, rgba(226,218,212,1) 100%);*/
+	background: rgb(247,247,247);
+	background: radial-gradient(circle, rgba(247,247,247,1) 0%, rgba(221,221,221,1) 100%);
 
-	font-family: "Futura", "sans serif";
+	font-family: "Quicksand", "sans serif";
+	padding: 0.5%; 
 
 }
 
@@ -22,31 +31,36 @@ body {
 
 
 #title {
-	padding-top: 5%;
+	/*padding-top: 5%;*/
 	padding-bottom: 5%;
-	color: white;
 	text-align: right;
 	margin-left: 25%;
-
+	font-family: "Quicksand";
 
 }	
 
 
 h1 {
-	color: white;
-	font-family: "Courier New";
-	font-size: 60pt;
+	/*color: #fafafa;*/
+	color: #4d4c4c;
+	font-family: "Megrim";
+	font-size: 10vw;
+
+	/* behöver här säga att om small screen, då font size mindre*/
 
 
 }
 
 p {
-	font-size: 14pt;
+	font-size: 2vw;
+	font-family: "Quicksand";
+	color: black;
 
 }
 
 #projectpart {
 	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 #projectpart p {
@@ -59,8 +73,14 @@ p {
 
 h2 {
 	text-align: center;
-	color: #707070;
+	/*color: #707070;*/
+	color: #6b6666; 
 
+}
+
+h6 {
+	margin-bottom: 30px;
+	font-size: 12pt;
 }
 
 #memberpart {
@@ -72,15 +92,23 @@ h2 {
 	font-size: 10pt;
 }
 
+.member_name {
+	display: flex; 
+	justify-content: center;
+	font-size: 14pt;
+}
+
 .picmember {
 	width: 200px;
   	border-radius: 50%;
   	position: all;
-  	margin-left: 20%;
-
+	margin-left: auto;
+	margin-right: auto;
+	display: flex; 
+	justify-content: center;
+	margin-bottom: 10px;
 }
 
-
 #descmember {
-	padding-top: 5%;
+	padding: 5%;
 }
