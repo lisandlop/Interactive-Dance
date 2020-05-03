@@ -29,7 +29,6 @@ body {
 	height: auto;
 	margin: center;
 	object-fit: contain;
-	border-radius: 5%;
 } 
 
 
@@ -80,10 +79,39 @@ p {
 
 }
 
+/* Mobile */
 #projectvideo {
-	height: 300px;
-	width: 500px;
+	width: 360px;
+	height: 202,5px;
 	margin: auto;
+}
+
+/* Tablet */
+@media screen and (min-width: 400px) {
+	#projectvideo {
+		height: 225px;
+		width: 400px;
+		margin: auto;
+	}
+}
+
+/* Middle large */
+@media screen and (min-width: 600px) {
+	#projectvideo {
+		height: 315px;
+		width: 560px;
+		margin: auto;
+	}
+}
+
+/* Large screen */
+@media screen and (min-width: 1000px) {
+	#projectvideo {
+		height: 540px;
+		width: 960px;
+		/* 0.5625 */
+		margin: auto;
+	}
 }
 
 #teampart {
