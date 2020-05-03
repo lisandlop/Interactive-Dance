@@ -70,29 +70,6 @@ h1 {
 	}
 }
 
-/*
-h1 {
-	color: #black;
-	font-family: "Futura";
-	font-size: 4vw;
-}
-@media screen and (min-width: 400px) {
-	#projectvideo {
-		height: 225px;
-		width: 400px;
-		margin: auto;
-	}
-}
-@media screen and (min-width: 600px) {
-	#projectvideo {
-		height: 315px;
-		width: 560px;
-		margin: auto;
-	}
-}
-
-*/
-
 p {
 	font-size: 2vw;
 	color: black;
@@ -109,6 +86,11 @@ p {
 
 #projectimage {
 	border-radius: 1%;
+}
+
+#line_between {
+	margin-left: 15%; 
+	margin-right: 15%;
 }
 
 /* Mobile */
@@ -151,7 +133,7 @@ h2 {
 	text-align: center;
 	/*color: #707070;*/
 	color: #6b6666; 
-	font-family: Futura;
+	font-family: 'Jost', sans-serif;
 }
 
 h6 {
@@ -173,8 +155,7 @@ h4 {
 	justify-content: center;
 	font-size: 14pt;
 	/*font-weight: bold;*/
-	font-family: Futura;
-}
+	font-family: 'Jost', sans-serif;}
 
 .picmember {
 	width: 200px;
