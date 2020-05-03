@@ -132,6 +132,15 @@ h4 {
 	padding: 5%;
 }
 
+.contact_info {
+	display: flex;
+	justify-content: center;
+}
+
+.contact_info img {
+	margin: 10px; 
+}
+
 a {
 	margin: 0;
 }
@@ -142,7 +151,5 @@ a {
 	width: auto;
 	height: 50px;
 	text-align: left;
-
-
 }
 
