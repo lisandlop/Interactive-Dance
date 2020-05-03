@@ -51,7 +51,8 @@ body {
 h1 {
 	/*color: #fafafa;*/
 	color: #black;
-	font-family: "Futura";
+	/*font-family: "Futura";*/
+	font-family: 'Jost', sans-serif;
 	/*font-size: 4vw;*/
 	font-size: 40px; 
 	margin-left: 20%;
