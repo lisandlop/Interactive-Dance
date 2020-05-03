@@ -125,3 +125,9 @@ h6 {
 #descmember {
 	padding: 5%;
 }
+
+.bottom {
+	padding-left: 20px;
+	width: auto;
+	height: 50px;
+}
