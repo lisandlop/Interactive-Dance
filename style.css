@@ -38,14 +38,11 @@ body {
 	padding-bottom: 5%;
 	text-align: right;
 	margin-left: 25%;
-
 }	
-
 
 #title p {
 	font-family: Quicksand;
 	font-size: 17pt;
-
 }
 
 h1 {
@@ -53,16 +50,12 @@ h1 {
 	color: #4d4c4c;
 	font-family: "Megrim";
 	font-size: 10vw;
-
 	/* behöver här säga att om small screen, då font size mindre*/
-
-
 }
 
 p {
 	font-size: 2vw;
 	color: black;
-
 }
 
 #projectpart {
@@ -75,8 +68,7 @@ p {
 }
 
 #projectimage {
-	border-radius: 3%;
-
+	border-radius: 1%;
 }
 
 /* Mobile */
@@ -85,7 +77,6 @@ p {
 	height: 202,5px;
 	margin: auto;
 }
-
 /* Tablet */
 @media screen and (min-width: 400px) {
 	#projectvideo {
@@ -94,7 +85,6 @@ p {
 		margin: auto;
 	}
 }
-
 /* Middle large */
 @media screen and (min-width: 600px) {
 	#projectvideo {
@@ -103,7 +93,6 @@ p {
 		margin: auto;
 	}
 }
-
 /* Large screen */
 @media screen and (min-width: 1000px) {
 	#projectvideo {
@@ -174,10 +163,10 @@ a {
 }
 
 .bottom {
-	padding-top: 20%;
-	padding-left: 15px;
+	padding-top: 80px;
 	width: auto;
-	height: 50px;
-	text-align: left;
 }
 
+.bottom p {
+	text-align: right;
+}
