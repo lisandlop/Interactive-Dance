@@ -29,7 +29,9 @@ body {
 	height: auto;
 	margin: center;
 	object-fit: contain;
+	border-radius: 5%;
 } 
+
 
 
 #title {
@@ -37,10 +39,15 @@ body {
 	padding-bottom: 5%;
 	text-align: right;
 	margin-left: 25%;
-	font-family: "Quicksand";
 
 }	
 
+
+#title p {
+	font-family: Quicksand;
+	font-size: 17pt;
+
+}
 
 h1 {
 	/*color: #fafafa;*/
@@ -55,7 +62,6 @@ h1 {
 
 p {
 	font-size: 2vw;
-	font-family: "Quicksand";
 	color: black;
 
 }
@@ -105,7 +111,7 @@ h6 {
 	font-size: 10pt;
 }
 
-.member_name {
+h4 {
 	display: flex; 
 	justify-content: center;
 	font-size: 14pt;
@@ -126,8 +132,17 @@ h6 {
 	padding: 5%;
 }
 
+a {
+	margin: 0;
+}
+
 .bottom {
-	padding-left: 20px;
+	padding-top: 20%;
+	padding-left: 15px;
 	width: auto;
 	height: 50px;
+	text-align: left;
+
+
 }
+
