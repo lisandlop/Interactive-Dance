@@ -84,6 +84,13 @@ p {
 	font-size: 12pt;
 }
 
+#thank {
+	margin: auto;
+	padding-top: 50px;
+}
+
+
+
 #projectimage {
 	border-radius: 1%;
 }
